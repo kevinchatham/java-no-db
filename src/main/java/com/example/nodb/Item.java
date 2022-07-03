@@ -6,9 +6,9 @@ import lombok.NonNull;
 
 @Getter
 @AllArgsConstructor
-public class Item {
+public final class Item {
     @NonNull
-    public Number id;
+    public final Number id;
     @NonNull
-    public String name;
+    public final String name;
 }
